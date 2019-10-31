@@ -1,6 +1,6 @@
 # AlgorithmsAndDataStructures
 
-Going through Data Structure and Algorithm problems from Udemy Course on JavaScript Algorithm and Data Structures Master Class by Colt Steele.  
+Going through Udemy Course on JavaScript Algorithms and Data Structures Master Class by Colt Steele.  
 
 
 ### Big O Notation: 
