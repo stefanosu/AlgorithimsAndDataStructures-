@@ -1,14 +1,10 @@
 //First Problem Frequency Counter -validAnagram Problem: 
 
 //1. Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is word, name, or phrase
-<<<<<<< HEAD
-//formed by rearranging the letters of another, such as cinema, formed from iceman. 
-
-=======
 ///formed by rearranging the letters of another, such as cinema, formed from iceman. 
+
 //Time Complexity is 0(N) linear 
 //Space Complexity is 0(1) constant 
->>>>>>> 54bb62b63ecd10f4b888df8801c27c27948e766c
 
 const validAnagram = (arr1, arr2) => {
     if(arr1.length !== arr2.length){
@@ -32,7 +28,6 @@ const validAnagram = (arr1, arr2) => {
     }
     return true;    
 }
-<<<<<<< HEAD
 
 
 //Second Problem Multiple Pointers - countUniqueValues Problem: 
@@ -54,5 +49,5 @@ const validAnagram = (arr1, arr2) => {
         return i+1;
     }
     
-=======
->>>>>>> 54bb62b63ecd10f4b888df8801c27c27948e766c
+//Time complexity O(N) Linear  
+//Space complexity O(1) Constant 
