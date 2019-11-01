@@ -12,3 +12,7 @@ Going through Udemy Course on JavaScript Algorithms and Data Structures Master C
   
 ### Multiple Pointers Pattern:
   #### Coding Exercise 2: Multiple Pointers - countUniqueValues. 
+
+
+  ### Sliding Window Pattern: 
+  #### Coding Exercise 3: Sliding Window - maxSubArraySum. 
