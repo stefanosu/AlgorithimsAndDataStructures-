@@ -1,12 +1,10 @@
-////First Problem////
-
-///Frequency Counter -validAnagram Problem: 
+//First Problem Frequency Counter -validAnagram Problem: 
 
 //1. Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is word, name, or phrase
-///formed by rearranging the letters of another, such as cinema, formed from iceman. 
+//formed by rearranging the letters of another, such as cinema, formed from iceman. 
 
 
-function validAnagram(arr1, arr2){
+const validAnagram = (arr1, arr2) => {
     if(arr1.length !== arr2.length){
         return false; 
     }
@@ -28,3 +26,24 @@ function validAnagram(arr1, arr2){
     }
     return true;    
 }
+
+
+//Second Problem Multiple Pointers - countUniqueValues Problem: 
+    //2. Implement a function called countUniqueValues, which accepts a sorted arr, and counts the unique values in the arr. There can
+    //be negative numbers in the arr, but it will always be sorted. 
+
+
+    const countUniqueValues = (arr) => {
+        if(arr.length === 0) {
+            return 0; 
+        }
+        let i = 0; 
+        for(let j = 1; j < arr.length; j++){
+            if(arr[i] !== arr[j]){
+                i++;
+                arr[i] = arr[j]
+            }
+        }
+        return i+1;
+    }
+    
