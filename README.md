@@ -3,7 +3,8 @@
 Going through Udemy Course on JavaScript Algorithms and Data Structures Master Class by Colt Steele.  
 
 
-### Big O Notation: ##### Gives a measurement of the efficiency of an algorithm usually the time or space complexity of an algorithm. How much time it takes to excute the code and how much memory or space the code takes up.  
+### Big O Notation: 
+   #####  Gives a measurement of the efficiency of an algorithm usually the time or space complexity of an algorithm. How much time it takes to excute the code and how much memory or space the code takes up.  
 
 
 ### Frequency Pattern: ##### This pattern uses objects or sets to collect values/frequencies of values.This can often avoid the need for nested loops or O(N^2) operations with arrays/strings. 
