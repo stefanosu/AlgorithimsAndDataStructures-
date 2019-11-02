@@ -15,7 +15,7 @@ Going through Udemy Course on JavaScript Algorithms and Data Structures Master C
   
   
 ### Multiple Pointers Pattern: 
-      ##### This pattern is creating pointers or values that correspond to an index or position and move towards the begininning, middle or end based on certain conditions. Very efficient for solving problems with minimal space complexity. 
+   ##### This pattern is creating pointers or values that correspond to an index or position and move towards the begininning, middle or end based on certain conditions. Very efficient for solving problems with minimal space complexity. 
 
 
   #### Coding Exercise 2: Multiple Pointers - countUniqueValues. 
