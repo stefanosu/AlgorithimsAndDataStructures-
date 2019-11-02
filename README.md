@@ -7,6 +7,7 @@ Going through Udemy Course on JavaScript Algorithms and Data Structures Master C
 
 
 ### Frequency Pattern: 
+   ##### This pattern uses objects or sets to collect values/frequencies of values. 
   #### Coding Exercise 1: Frequency Counter - validAnagram. 
   
   
