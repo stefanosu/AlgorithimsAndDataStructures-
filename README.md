@@ -29,4 +29,4 @@ Going through Udemy Course on JavaScript Algorithms and Data Structures Master C
 
 
 ### Recursion:  
-   ##### 
+   #####  Is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration).
