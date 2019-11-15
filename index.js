@@ -66,3 +66,5 @@ const validAnagram = (arr1, arr2) => {
         return num * power(num,--exp);  
     }; 
     power((10, 5));
+//Time complexity Log(N)   
+//Space complexity O(1) Constant 
