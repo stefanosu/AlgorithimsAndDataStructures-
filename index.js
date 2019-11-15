@@ -85,3 +85,18 @@ const validAnagram = (arr1, arr2) => {
     factorial(8);
 
 
+///Recursion Problems -- productOfArray 
+    //5. Write a function called productOfArray which takes in an array of numbers and returns the product of them all.
+        
+    // productOfArray([1,2,3]) // 6
+    // productOfArray([1,2,3,10]) // 60
+
+    const productOfArray = (arr) => {
+        if (arr.length === 1) {
+            return(arr[0]); 
+        }else {
+            return arr.pop() * productOfArray(arr);
+        } 
+    };  
+
+    console.log(productOfArray([1,2,3,4,5,6]));
