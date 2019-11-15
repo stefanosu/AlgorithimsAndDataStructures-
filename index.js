@@ -52,7 +52,7 @@ const validAnagram = (arr1, arr2) => {
 //Time complexity O(N) Linear  
 //Space complexity O(1) Constant 
     
-  ///Recursion Problem -- Power 
+  ///Recursion Problems -- Power 
     //3.Write a function called power which accepts a base and an exponent. The function should return the power of the base to the exponent.
           ///This Func should mimic the functionality of Math.Pow() don't worry about negative bases and exponents. 
     
@@ -68,3 +68,20 @@ const validAnagram = (arr1, arr2) => {
     power((10, 5));
 //Time complexity Log(N)   
 //Space complexity O(1) Constant 
+
+ 
+//Recurion Problems -- Factorial 
+    //4. Write a function factorial which accepts a number and returns the factorial of that number. A factorial is the product of an integer and all the integers below it.
+   
+    //factorial(1) // 1
+    // factorial(2) // 2
+    // factorial(4) // 24
+    // factorial(7) // 5040
+
+    const factorial = (num) => {
+        if(num === 0) return 1; 
+        return num * factorial(num - 1);
+    };
+    factorial(8);
+
+
