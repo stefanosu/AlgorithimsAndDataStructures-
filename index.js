@@ -51,3 +51,18 @@ const validAnagram = (arr1, arr2) => {
     
 //Time complexity O(N) Linear  
 //Space complexity O(1) Constant 
+    
+  ///Recursion Problem -- Power 
+    //3.Write a function called power which accepts a base and an exponent. The function should return the power of the base to the exponent.
+          ///This Func should mimic the functionality of Math.Pow() don't worry about negative bases and exponents. 
+    
+     // power(2,0) // 1
+    // power(2,2) // 4
+    // power(2,4) // 16
+
+    const power = (num, exp) => {
+        if(exp <= 0) return 1;
+
+        return num * power(num,--exp);  
+    }; 
+    power((10, 5));
