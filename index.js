@@ -114,5 +114,5 @@ const validAnagram = (arr1, arr2) => {
             return - 1;
         }
     console.log(linearSearch([5,10,15,20,25],15));
-
-
+//Time Complexity O(N) Linear
+//Space Complexity O(1)Constant 
