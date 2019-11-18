@@ -100,3 +100,19 @@ const validAnagram = (arr1, arr2) => {
     };  
 
     console.log(productOfArray([1,2,3,4,5,6]));
+
+
+///Searching Algorithms///
+    //--Linear Search Problem// 
+        //1. Write a func called LinearSearch which accepts an arr and val, and returns the index at which the val exists. 
+            //If the value does not exist in the arr return -1.   
+    
+        const linearSearch = (arr, val) => {
+            for(let i = 0; i <= arr.length; i++){
+                if(arr[i] === val)return i;
+            }
+            return - 1;
+        }
+    console.log(linearSearch([5,10,15,20,25],15));
+
+
