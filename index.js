@@ -102,6 +102,17 @@ const validAnagram = (arr1, arr2) => {
     console.log(productOfArray([1,2,3,4,5,6]));
 
 
+///Recursion Problem -- recursiveRange
+    //6. Write a func called recursiveRange which accepts a number and adds up all the numbers from 0 to the number passed to the func.
+    const recursiveRange = (num) => {
+    if(num === 1) return 1; 
+    return num + recursiveRange(--num);  
+};
+
+console.log(recursiveRange(8));
+
+
+
 ///Searching Algorithms///
     //--Linear Search Problem// 
         //1. Write a func called LinearSearch which accepts an arr and val, and returns the index at which the val exists. 
