@@ -99,18 +99,30 @@ const validAnagram = (arr1, arr2) => {
         } 
     };  
 
-    console.log(productOfArray([1,2,3,4,5,6]));
+    productOfArray([1,2,3,4,5,6]);
 
 
 ///Recursion Problem -- recursiveRange
     //6. Write a func called recursiveRange which accepts a number and adds up all the numbers from 0 to the number passed to the func.
+    
     const recursiveRange = (num) => {
-    if(num === 1) return 1; 
-    return num + recursiveRange(--num);  
-};
+        if(num === 1) return 1; 
+        return num + recursiveRange(--num);  
+    };
 
-console.log(recursiveRange(8));
+    recursiveRange(8));
 
+
+///Recursion Problem -- Fibbonaci 
+    //7. Write a recursive func called fib which accepts a num and returns the nth num in the fibbonanci sequence. 
+   
+    const fib = (num) => {
+        if(num <= 2) return 1;
+        return fib(--num) + fib(--num); 
+    }
+        fib(6);
+
+    
 
 
 ///Searching Algorithms///
