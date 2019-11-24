@@ -83,7 +83,8 @@ const validAnagram = (arr1, arr2) => {
         return num * factorial(num - 1);
     };
     factorial(8);
-
+//Time complexity (O)N Linear
+//Space complexity (O) Constant 
 
 ///Recursion Problems -- productOfArray 
     //5. Write a function called productOfArray which takes in an array of numbers and returns the product of them all.
