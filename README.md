@@ -30,3 +30,6 @@ Going through Udemy Course on JavaScript Algorithms and Data Structures Master C
 
 ### Recursion:  
    #####  Is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration).
+
+### Searching Algorithms: 
+   #### Linear Search - is a process that checks every element in the list sequentially until the desired element is found. The computational complexity for linear search is O(n) 
