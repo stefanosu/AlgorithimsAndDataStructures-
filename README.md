@@ -33,3 +33,5 @@ Going through Udemy Course on JavaScript Algorithms and Data Structures Master C
 
 ### Searching Algorithms: 
    #### Linear Search - is a process that checks every element in the list sequentially until the desired element is found. The computational complexity for linear search is O(n) 
+   
+   #### Binary Search - is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.
