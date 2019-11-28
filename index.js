@@ -116,14 +116,23 @@ const validAnagram = (arr1, arr2) => {
 
 ///Recursion Problem -- Fibbonaci 
     //7. Write a recursive func called fib which accepts a num and returns the nth num in the fibbonanci sequence. 
-   
-    const fib = (num) => {
+      
+      const fib = (num) => {
         if(num <= 2) return 1;
         return fib(--num) + fib(--num); 
     }
         fib(6);
 
+
+///Recursion Problem -- Reverse 
+    //8. Write a recursive func called reverse which accepts a string and returns a new string in reverse. 
     
+    const reverse = (str) => {
+        if(str.length <= 1) return str;
+        return reverse(str.slice(1)) + str[0];
+    };
+    console.log(reverse("awesome"));
+    // reverse('awesome') // 'emosewa'
 
 
 ///Searching Algorithms///
@@ -137,6 +146,8 @@ const validAnagram = (arr1, arr2) => {
             }
             return - 1;
         }
-    console.log(linearSearch([5,10,15,20,25],15));
-//Time Complexity O(N) Linear
-//Space Complexity O(1)Constant 
+      console.log(linearSearch([5,10,15,20,25],15));
+    //Time Complexity O(N) Linear
+    //Space Complexity O(1)Constant 
+
+
