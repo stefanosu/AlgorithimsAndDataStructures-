@@ -150,7 +150,8 @@ const validAnagram = (arr1, arr2) => {
     //Time Complexity O(N) Linear
     //Space Complexity O(1)Constant 
 
-
+    //-- Binary Search Problem// 
+       //2. Write a func called binarySearch that takes an sorted arr and a val and returns the index at which the val exists.
 
 const binarySearch = (arr, val) => {
     var start = 0;
@@ -164,7 +165,7 @@ const binarySearch = (arr, val) => {
     return arr[middle] == val ? middle : -1;
 };
 
-binarySearch([2,5,6,9,13,15,28,30], 103);
+binarySearch([2,5,6,15,28,30], 14);
 //Time Complexity log(N)
 //Space Complexity 0(1)
 
