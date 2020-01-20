@@ -140,17 +140,17 @@ const validAnagram = (arr1, arr2) => {
         //1. Write a func called LinearSearch which accepts an arr and val, and returns the index at which the val exists. 
             //If the value does not exist in the arr return -1.   
     
-        const linearSearch = (arr, val) => {
-            for(let i = 0; i <= arr.length; i++){
-                if(arr[i] === val)return i;
-            }
-            return - 1;
+    const linearSearch = (arr, val) => {
+        for(let i = 0; i <= arr.length; i++){
+            if(arr[i] === val)return i;
         }
+        return - 1;
+    }
       console.log(linearSearch([5,10,15,20,25],15));
     //Time Complexity O(N) Linear
     //Space Complexity O(1)Constant 
 
-    //-- Binary Search Problem// 
+    ///-- Binary Search Problem/// 
        //2. Write a func called binarySearch that takes an sorted arr and a val and returns the index at which the val exists.
 
 const binarySearch = (arr, val) => {
@@ -163,11 +163,33 @@ const binarySearch = (arr, val) => {
         middle = Math.floor((start + end) / 2);
     }
     return arr[middle] == val ? middle : -1;
-};
+    };
 
-binarySearch([2,5,6,15,28,30], 14);
-//Time Complexity log(N)
-//Space Complexity 0(1)
+    binarySearch([2,5,6,15,28,30], 14);
+    //Time Complexity log(N)
+    //Space Complexity 0(1)
 
+
+  ///-- Sorting Algorithms --///
+    //Bubble Sort Problem// 
+
+    
+const bubbleSort = (arr) => {
+    let noSwaps; 
+    for(let i = arr.length; i > 0; i--) {
+        noSwaps = true; 
+        for(let j = 0; j < i - 1; j++ ){
+            if(arr[j] > arr[j+1]) {
+                let temp = arr[j] 
+                arr[j] = arr[j + 1]
+                arr[j + 1] = temp 
+                noSwaps = false 
+            }  
+        }
+        if(noSwaps) break
+    }
+    return arr 
+}
+console.log(bubbleSort([5,7,15,35,9,12]))
 
 
